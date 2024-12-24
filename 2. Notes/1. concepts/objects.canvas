@@ -1,0 +1,29 @@
+{
+	"nodes":[
+		{"id":"7abf5e900211261c","type":"text","text":"An object is a software bundle of related state and behavior","x":-160,"y":-220,"width":365,"height":60,"color":"4"},
+		{"id":"1b94c6645f93a207","type":"text","text":"state","x":-285,"y":-90,"width":250,"height":60},
+		{"id":"561148f03d8e6b96","type":"text","text":"behaviour","x":100,"y":-90,"width":250,"height":60},
+		{"id":"f18f5ba6fba194d6","type":"text","text":"Dogs have state (name, color, breed, hungry) and behavior (barking, fetching, wagging tail). Bicycles also have state (current gear, current pedal cadence, current speed) and behavior (changing gear, changing pedal cadence, applying brakes).","x":-180,"y":80,"width":430,"height":240},
+		{"id":"114380d1e714a838","type":"text","text":"exposes its behavior through _methods_ (functions in some programming languages).","x":320,"y":120,"width":250,"height":160},
+		{"id":"d264f856fdaf9a87","type":"text","text":"An object stores its state in _fields_ (variables in some programming languages)","x":-500,"y":120,"width":250,"height":140},
+		{"id":"fc3e39594fb5c923","type":"text","text":"methods","x":480,"y":360,"width":250,"height":60},
+		{"id":"93af3927b855cf68","type":"text","text":"Hiding internal state and requiring all interaction to be performed through an object's methods is known as _data encapsulation_","x":962,"y":620,"width":339,"height":163},
+		{"id":"1cbf208691e3c8ba","type":"text","text":"Methods operate on an object's internal state and serve as the primary mechanism for object-to-object communication.","x":570,"y":617,"width":299,"height":166},
+		{"id":"600b67ec72e72077","type":"file","file":"2. Notes/1. concepts/encapsulation.canvas","x":1132,"y":960,"width":400,"height":282},
+		{"id":"07bcd288cc3b382f","x":-430,"y":557,"width":250,"height":60,"type":"text","text":"benefits"},
+		{"id":"3baa954837df520d","x":-668,"y":720,"width":727,"height":456,"type":"text","text":"Bundling code into individual software objects provides a number of benefits, including:\n\n1. Modularity: The source code for an object can be written and maintained independently of the source code for other objects. Once created, an object can be easily passed around inside the system.\n2. Information-hiding: By interacting only with an object's methods, the details of its internal implementation remain hidden from the outside world.\n3. Code re-use: If an object already exists (perhaps written by another software developer), you can use that object in your program. This allows specialists to implement/test/debug complex, task-specific objects, which you can then trust to run in your own code.\n4. Pluggability and debugging ease: If a particular object turns out to be problematic, you can simply remove it from your application and plug in a different object as its replacement. This is analogous to fixing mechanical problems in the real world. If a bolt breaks, you replace it, not the entire machine."}
+	],
+	"edges":[
+		{"id":"a1252d964fafd4eb","fromNode":"7abf5e900211261c","fromSide":"bottom","toNode":"1b94c6645f93a207","toSide":"top"},
+		{"id":"2074e170e1e1e950","fromNode":"7abf5e900211261c","fromSide":"bottom","toNode":"561148f03d8e6b96","toSide":"top"},
+		{"id":"5880fa3b405f8e89","fromNode":"1b94c6645f93a207","fromSide":"bottom","toNode":"f18f5ba6fba194d6","toSide":"top"},
+		{"id":"0f0a3c013c009188","fromNode":"561148f03d8e6b96","fromSide":"bottom","toNode":"f18f5ba6fba194d6","toSide":"top"},
+		{"id":"51ba4edad82fe47f","fromNode":"561148f03d8e6b96","fromSide":"bottom","toNode":"114380d1e714a838","toSide":"top"},
+		{"id":"28bdf9f1361d1b4b","fromNode":"1b94c6645f93a207","fromSide":"bottom","toNode":"d264f856fdaf9a87","toSide":"top"},
+		{"id":"89b7bf7f3e39a87b","fromNode":"114380d1e714a838","fromSide":"bottom","toNode":"fc3e39594fb5c923","toSide":"top"},
+		{"id":"463098760c05aa01","fromNode":"fc3e39594fb5c923","fromSide":"bottom","toNode":"1cbf208691e3c8ba","toSide":"top"},
+		{"id":"889340f1a69d910e","fromNode":"fc3e39594fb5c923","fromSide":"bottom","toNode":"93af3927b855cf68","toSide":"top"},
+		{"id":"18de74c130c84e21","fromNode":"93af3927b855cf68","fromSide":"bottom","toNode":"600b67ec72e72077","toSide":"top"},
+		{"id":"678f09533942f60d","fromNode":"07bcd288cc3b382f","fromSide":"bottom","toNode":"3baa954837df520d","toSide":"top"}
+	]
+}

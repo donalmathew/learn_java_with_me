@@ -1,0 +1,6 @@
+{
+	"nodes":[
+		{"id":"fce3b5819818e477","x":-140,"y":-160,"width":405,"height":150,"type":"text","text":"Hiding internal state and requiring all interaction to be performed through an object's methods is known as _data encapsulation_ — a fundamental principle of object-oriented programming."}
+	],
+	"edges":[]
+}

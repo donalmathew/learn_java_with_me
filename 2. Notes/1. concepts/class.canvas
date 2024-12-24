@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"d81a7cbb8d37e451","type":"text","text":"A _class_ is the blueprint from which individual objects are created.","x":-120,"y":-160,"width":305,"height":110,"color":"4"},
+		{"id":"4564a4964f8bfd8d","type":"file","file":"Assets/Pasted image 20241224112323.png","x":-380,"y":140,"width":334,"height":400},
+		{"id":"965323eabb8277cd","type":"text","text":"every class does not have a main method","x":260,"y":110,"width":250,"height":60},
+		{"id":"351eb920b32b3e24","type":"text","text":"You may have noticed that the `Bicycle` class does not contain a `main()` method. That is because it is not a complete application; it is just the blueprint for bicycles that might be used in an application. The responsibility of creating and using new `Bicycle` objects belongs to some other class in your application.","x":353,"y":275,"width":427,"height":235},
+		{"id":"8e90a85d5037cf41","type":"file","file":"Assets/Pasted image 20241224112444.png","x":-443,"y":600,"width":460,"height":352}
+	],
+	"edges":[
+		{"id":"858a885b4c2cc1f3","fromNode":"d81a7cbb8d37e451","fromSide":"bottom","toNode":"965323eabb8277cd","toSide":"top"},
+		{"id":"cc808fd1ab253e16","fromNode":"965323eabb8277cd","fromSide":"bottom","toNode":"351eb920b32b3e24","toSide":"top"},
+		{"id":"9abbfa5aa39c0dae","fromNode":"d81a7cbb8d37e451","fromSide":"bottom","toNode":"4564a4964f8bfd8d","toSide":"top"},
+		{"id":"553580161101a993","fromNode":"4564a4964f8bfd8d","fromSide":"bottom","toNode":"8e90a85d5037cf41","toSide":"top"}
+	]
+}

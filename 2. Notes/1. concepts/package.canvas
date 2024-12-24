@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"0f77cecdfca75ec0","x":-280,"y":-260,"width":540,"height":120,"color":"4","type":"text","text":"A package is a namespace that organizes a set of related classes and interfaces. Conceptually you can think of packages as being similar to different folders on your computer."},
+		{"id":"2503ec9f1a96586b","x":-292,"y":-80,"width":565,"height":130,"type":"text","text":"Because software written in the Java programming language can be composed of hundreds or thousands of individual classes, it makes sense to keep things organized by placing related classes and interfaces into packages."},
+		{"id":"2a09a12a7a01fadb","x":185,"y":248,"width":495,"height":112,"type":"text","text":"The Java platform provides an enormous class library (a set of packages) suitable for use in your own applications."},
+		{"id":"e241df5fbff35842","x":340,"y":420,"width":515,"height":132,"type":"text","text":"This library is known as the \"Application Programming Interface\", or \"API\" for short. Its packages represent the tasks most commonly associated with general-purpose programming."},
+		{"id":"8188900982eeeed9","x":500,"y":640,"width":595,"height":130,"type":"text","text":"For example, a [`String`](https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/lang/String.html) object contains state and behavior for character strings; a [`File`](https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/io/File.html) object allows a programmer to easily create, delete, inspect, compare, or modify a file on the filesystem; a [`Socket`](https://docs.oracle.com/en/java/javase/23/docs/api/java.base/java/net/Socket.html) object allows for the creation and use of network sockets;"}
+	],
+	"edges":[
+		{"id":"6c9f24fb10266b9b","fromNode":"0f77cecdfca75ec0","fromSide":"bottom","toNode":"2503ec9f1a96586b","toSide":"top"},
+		{"id":"84db30b60e660f4a","fromNode":"2503ec9f1a96586b","fromSide":"bottom","toNode":"2a09a12a7a01fadb","toSide":"top"},
+		{"id":"50d7e8a5adcdcb4b","fromNode":"2a09a12a7a01fadb","fromSide":"bottom","toNode":"e241df5fbff35842","toSide":"top"},
+		{"id":"7d872d66420a1fe7","fromNode":"e241df5fbff35842","fromSide":"bottom","toNode":"8188900982eeeed9","toSide":"top"}
+	]
+}
